@@ -1,0 +1,6 @@
+__MACOSX/
+.vscode/
+.idea/
+*.o
+*.out
+*.DS_Store
