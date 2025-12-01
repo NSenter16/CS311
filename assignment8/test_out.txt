@@ -1,0 +1,45 @@
+Testing results:
+Print the graph using adjacency list
+Graph:
+0: 1 2 
+1: 0 2 3 4 
+2: 0 1 3 
+3: 1 2 4 
+4: 1 3 
+
+Vertex 0 has 2 outgoing edges
+Vertex 1 has 4 outgoing edges
+Vertex 2 has 3 outgoing edges
+Vertex 3 has 3 outgoing edges
+Vertex 4 has 2 outgoing edges
+
+Print the graph after adding a vertex
+Graph:
+0: 1 2 
+1: 0 2 3 4 
+2: 0 1 3 
+3: 1 2 4 
+4: 1 3 
+5: 
+
+testing BFS from 3
+Breadth First Search
+3 1 2 4 0 
+3 1 2 4 0 
+
+testing DFS from 3
+Depth First Search
+3 1 0 2 4 
+3 1 0 2 4 
+testing BFS from 2
+Breadth First Search
+2 0 1 3 4 
+2 0 1 3 4 
+
+testing DFS from 4
+Depth First Search
+4 1 0 2 3 
+4 1 0 2 3 
+
+g1 contains a cycle
+g2 does not contain a cycle
